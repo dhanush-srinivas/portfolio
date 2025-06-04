@@ -117,21 +117,122 @@
   </style>
 </head>
 <body>
-<header>
-  <h1><a href="#">Ananya Srinath Achar</a></h1>
-  <nav>
-    <button class="menu-toggle">☰</button>
-    <ul class="nav-links">
-      <li><a href="#about">About</a></li>
-      <li><a href="#academics">Academics</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#experience">Experience</a></li>
-      <li><a href="#leadership">Leadership</a></li>
-      <li><a href="#awards">Awards</a></li>
-      <li><a href="#recommendations">Recommendations</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
-</header>
+  <header>
+    <h1><a href="#">Ananya Srinath Achar</a></h1>
+    <nav>
+      <button class="menu-toggle">☰</button>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#academics">Academics</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#leadership">Leadership</a></li>
+        <li><a href="#awards">Awards</a></li>
+        <li><a href="#recommendations">Recommendations</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-<!-- The rest of the HTML remains unchanged -->
+  <main>
+    <section id="hero">
+      <video width="100%" controls>
+        <source src="your-video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </section>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Creative tech enthusiast with a passion for data, innovation, and impact. I blend storytelling with numbers to drive actionable insights and meaningful digital experiences.</p>
+    </section>
+
+    <section id="academics">
+      <h2>Academics</h2>
+      <ul>
+        <li><strong>MS in Information Technology and Management</strong> – UT Dallas (2023–2025)</li>
+        <li><strong>BE in Electronics and Communication Engineering</strong> – VTU (2017–2021)</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="card-grid">
+        <div class="card">
+          <h3>OCD Insights Dashboard</h3>
+          <p>Analyzed patient data using SQL & Tableau to uncover OCD symptom patterns and treatment opportunities.</p>
+        </div>
+        <div class="card">
+          <h3>Taylor Swift Sentiment Analysis</h3>
+          <p>Used NLP to visualize sentiment polarity across albums. A fun and insightful data storytelling project.</p>
+        </div>
+        <div class="card">
+          <h3>Real Estate ML Engine</h3>
+          <p>Built a clustering model for pricing homes, integrating web-scraped sales data with DBSCAN and NLP tools.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience">
+      <h2>Experience</h2>
+      <div class="card">
+        <h3>Software Engineer Intern @ Nuvento Inc</h3>
+        <p>Optimized ETL pipelines and designed a school performance data platform on Azure, improving reporting speed by 15%.</p>
+      </div>
+      <div class="card">
+        <h3>Business Intelligence Analyst @ Cognizant</h3>
+        <p>Automated Power BI reports and dashboards, reducing manual reporting effort by 12+ hours weekly for HR and energy clients.</p>
+      </div>
+    </section>
+
+    <section id="leadership">
+      <h2>Leadership</h2>
+      <ul>
+        <li>Student Leadership Council Officer – UTD Student Union</li>
+        <li>Student Manager & Assistant – UTD Student Union</li>
+        <li>Chartwells Officer</li>
+        <li>Women Techmakers Ambassador</li>
+        <li>U&I Circle Leader and Volunteer</li>
+      </ul>
+    </section>
+
+    <section id="awards">
+      <h2>Awards & Nominations</h2>
+      <ul>
+        <li>Author of "The Teacher’s Daughter" – Published on Amazon</li>
+        <li>Research paper accepted at ICICS Conference – Springer Publication</li>
+        <li>Credentialed Market Research Intern – Verified Certificate</li>
+      </ul>
+    </section>
+
+    <section id="recommendations">
+      <h2>Recommendations</h2>
+      <div class="carousel">
+        <div class="testimonial">
+          <p>"Ananya is a rare mix of creativity and technical depth. Her leadership made a huge impact on our campus projects." – Andy H.</p>
+        </div>
+        <div class="testimonial">
+          <p>"Working with Ananya was an absolute pleasure. She brings clarity, structure, and innovation to every team." – Sean C.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:ananya.achar82@gmail.com">ananya.achar82@gmail.com</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/ananyasrinathachar/">@ananyasrinathachar</a></p>
+      <p>Portfolio: <a href="https://ananyas1999.github.io/portfolio">GitHub Pages</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Ananya Srinath Achar. All rights reserved.</p>
+  </footer>
+
+  <script>
+    document.querySelector('.menu-toggle').addEventListener('click', () => {
+      document.querySelector('.nav-links').classList.toggle('active');
+    });
+  </script>
+</body>
+</html>
